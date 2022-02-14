@@ -1,58 +1,96 @@
-.App header {
-    background-color: #282c34;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 0.5rem 1rem;
-  }
-  
-  ul.menu {
-    list-style: none;
-  }
-  
-  ul.menu li {
-    display: inline;
-    padding: 12px;
-  }
-  
-  ul.menu a {
-    color: #ffffff;
-  }
-  
-  .page-home {
-    text-align: center;
-  }
-  
-  .content {
-    text-align: left;
-    display: inline-block;
-    background-color: #ffffff;
-    width: 100%;
-    max-width: 1232px;
-    padding: 16px;
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .books table {
-    width: 100%;
-  }
-  
-  .title-col {
-    max-width: 60%;
-  }
-  
-  .search-input {
-    padding: 4px;
-    text-align: center;
-  }
-  
-  .search-input input {
-    display: inline-block;
-    width: 50%;
-  }
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+header {
+  display         : flex;
+  align-items     : center;
+  justify-content : space-between;
+  background-color: #282C34;
+  color           : white;
+}
+
+nav {
+  width  : fit-content;
+  padding: 1%;
+}
+
+.links {
+  color       : white;
+  margin-right: 10%;
+  font-size   : 1.2vw;
+}
+
+main {
+  text-align : center;
+  line-height: 2;
+  font-size  : 2vw;
+  border: solid;
+}
+
+.linkbuttons {
+  text-decoration : none;
+  background-color: #282C34;
+  color           : white;
+  padding         : .5%;
+}
+form
+{
+  margin:0 auto;
+  border: groove;
+  width: fit-content;
+  padding:1%;
+  font-size: 1.5vw;
+  border: solid red;
+}
+form h3
+{
+  color: darkblue;
+}
+form label
+{
+  text-align: left;
+  display: block;
+}
+form input
+{
+  font-size: 1.1vw;
+  padding:2%
+}
+input[type=submit]
+{
+  width: 80%;
+  background-color: #282C34;
+  border: none;
+color: white;
+cursor: pointer;
+}
+input
+{
+  margin:1%;
+  width: 90%;
+  padding:1%;
+  font-size: 1.2vw;
+}
+h1
+{
+  text-align: center;
+}
+table
+{
+  border-collapse: collapse;
+  width: 100%;
+}
+th,td
+{
+  text-align: center;
+  border-bottom: groove;
+
+}
+td
+{
+  text-align: left  ;
+  padding:1%  ;
+}
